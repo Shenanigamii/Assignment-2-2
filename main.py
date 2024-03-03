@@ -3,17 +3,19 @@
 # Output: Your current age followed by your age in 2050
 
 # Create your variables here
-
-# gets the current callendar year
-import datetime 
-currentYear = datetime.datetime.now().year
-# gets the users birth year from user input
+  # Gets the current callendar year
+# Other Viable Code in lines 9 and 10 
+# Remove line 11 if using lines 9 and 10 to keep current after the year 2024
+      #import datetime 
+      #currentYear = datetime.datetime.now().year
+currentYear = 2024
+  # Gets the users birth year from user input
 birthYear = input("To see how old you will be in the year 2050, enter the year you were born: ")
 birthYear = int(birthYear)
-# establishes current age
+  # Establishes current age
 myCurrentAge = currentYear - birthYear
-# creates users future age in 2050
+  # Creates users future age in 2050
 myNewAge = myCurrentAge + (2050 - currentYear)
-# voila
+  # Voila
 print("My Current Age is " + str(myCurrentAge))
 print("I will be " + str(myNewAge) + " in 2050.")
