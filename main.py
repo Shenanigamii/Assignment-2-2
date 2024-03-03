@@ -3,7 +3,7 @@
 # Output: Your current age followed by your age in 2050
 
 # Create your variables here
-  # Gets the current callendar year
+  # Gets the current calendar year
 # Other Viable Code in lines 9 and 10 
 # Remove line 11 if using lines 9 and 10 to keep current after the year 2024
       #import datetime 
